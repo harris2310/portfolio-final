@@ -10,10 +10,10 @@ export default class Header extends Component {
           <nav>
             <ul>
               <div className="name">
-                <h1 onClick={this.props.handleHarris}>Harris Hanozidis</h1>
+                <h1 className="header-element" onClick={this.props.handleHarris}>Harris Hanozidis</h1>
               </div>
-              <li onClick={this.props.handleAbout}>About Me</li>
-              <li onClick={this.props.handleContact}>Contact Me</li>
+              <li className="header-element" onClick={this.props.handleAbout}>About Me</li>
+              <li className="header-element" onClick={this.props.handleContact}>Contact Me</li>
             </ul>
           </nav>
         </header>
